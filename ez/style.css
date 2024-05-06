@@ -1,0 +1,75 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    color: white;
+}
+#navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+}
+.home{
+    margin-left: 650px;
+    margin-right: 100px;
+}
+.products{
+    margin-right: 100px;
+}
+#logos{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: end;
+}
+#instagram{
+    display: flex;
+    margin-right: 20px;
+}
+#twitter{
+    margin-right: 20px;
+}
+#corpo{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 100%;
+}
+.pc{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5%;
+    height: 70%;
+}
+.pcimg{
+    display: flex;
+    height: 90%;
+    border-radius: 20px;
+    border: solid #d1d0d0 1px;
+}
+#text{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 10%;
+    flex-direction: column;
+    font-size: x-large;
+    text-align: center;
+    height: 40%;
+    width: 40%;
+}
+.spctxt{
+    margin-bottom: 8%;
+}
+
+#preencher{
+    display: flex;
+}
